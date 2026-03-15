@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>O întrebare pentru tine ❤️</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+    text-align:center;
+    padding-top:150px;
+}
+
+h1{
+    font-size:40px;
+    color:#fff;
+}
+
+button{
+    font-size:22px;
+    padding:15px 30px;
+    margin:20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    background:white;
+}
+
+button:hover{
+    transform:scale(1.1);
+}
+
+#mesaj{
+    display:none;
+    font-size:35px;
+    color:white;
+    margin-top:40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Vrei să fii nevasta mea? 💍</h1>
+
+<button onclick="raspuns()">Da</button>
+<button onclick="raspuns()">Da ❤️</button>
+
+<div id="mesaj">
+Te aștept la mine iubire ❤️<br>
+Nu mai pleca de acasă!
+</div>
+
+<script>
+function raspuns(){
+    document.getElementById("mesaj").style.display = "block";
+}
+</script>
+
+</body>
+</html>
